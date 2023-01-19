@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./case_study_home.css" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap");
+
+        body {
+            background-color: #f8f8ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html"> Home </a>
+        <a href="case_study_home.html"> Case Studies </a>
+        <a href="writing.html"> Writing </a>
+        <a href="#graphics"> Graphics </a>
+        <a href="#contact"> Contact </a>
+    </div>
+
+    <div class="welcome">
+        <p class='first_text' style="font-weight: bolder;"> PROJECT GALLERY </p>
+        <p style="font-weight: normal;"> Click on any title to see more! </p>
+    </div>
+
+    <div class="slider">
+        <div class="slide" id="slide-1">
+            <img src="Travelers_in_Egypt_Logo.jpg" onclick="window.open('cs_egypt.html')">
+        </div>
+        <div class="slide" id="slide-2">
+            <img src="Ellipse 4.png">
+        </div>
+        <div class="slide" id="slide-3">
+            <img src="guam.png">
+        </div>
+        <div class="slide" id="slide-4">
+            <img src="cashmere.png">
+        </div>
+        <div class="slide" id="slide-5">
+            <img src="Ellipse 4.png">
+        </div>
+        <div class="slide" id="slide-6">
+            <img src="guam.png">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+
+    <div id="page-container">
+        <footer id="footer">
+            <div id="content-wrap">
+                <a onclick="window.open('https://www.instagram.com/kevxmin/')" target="_blank">
+                    <img src="insta.png"></img>
+                </a>
+
+                <a onclick="window.open('https://www.linkedin.com/in/kevxmin/')" target="_blank">
+                    <img src="linkedin.png"></img>
+                </a>
+
+                <a onclick="window.open('https://twitter.com/astroboykev/')" target="_blank">
+                    <img src="twitter.png"></img>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="case_study_home.js"></script>
+</body>
+
+</html>

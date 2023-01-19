@@ -1,0 +1,201 @@
+.navbar {
+    background-color: #f8f8ff;
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+    float: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:50px;
+    font-family: 'Proxima Nova';
+  }
+  
+  .navbar a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    background-color: #d8e8ff;
+    color: #000;
+  }
+
+  .greetings {
+    justify-content: left;
+    font-family: 'Montserrat', 'Black Han Sans';
+    font-weight: normal;
+    font-size: 36px;
+    margin-top: 125px;
+    margin-bottom: 25px;
+    margin-left: 125px;
+    color: #000
+  }
+
+  .greetings:hover {
+    animation: shake 0.5s cubic-bezier(0.5, 0.075, 0.25, 1.0) both;
+  }
+
+  .chamorro {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  .korean {
+    font-family: 'Black Han Sans';
+    font-weight: normal;
+    display: inline-block;
+  }
+
+  .p1 {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 135px;
+    margin-right: 125px;
+    font-family: 'Proxima Nova';
+    font-size: 18px;
+  }
+
+  .ui_4 {
+    width: 25px;
+    height: 75px;
+    background-color: #0E408A;
+    margin-right: 25px;
+    margin-top: 8px;
+    border-radius: 50px;
+  }
+
+  .img1 {
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    z-index: -1;
+  }
+
+  .p2 {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-right: 125px;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+  }
+
+  .banner1 {
+    margin-top: 75px;
+    color: #0E408A;
+  }
+
+  .banner_text:hover {
+    animation: shake 0.5s cubic-bezier(0.5, 0.075, 0.25, 1.0) both;
+  }
+
+  .text_1 {
+    color: #000;
+    display: inline-block;
+  }
+
+  .text1 {
+    display: inline-block;
+  }
+
+  .text_2 {
+    color: #000;
+    display: inline-block;
+  }
+
+  .text2 {
+    display: inline-block;
+  }
+
+  .banner_text2:hover {
+    animation: shake 0.5s cubic-bezier(0.5, 0.075, 0.25, 1.0) both;
+  }
+
+  .p2_text p {
+    margin-left: 35px;
+    margin-top: 100px;
+    margin-right: 25px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    font-size: 18px;
+    color:#000;
+  }
+
+  .banner2 {
+    margin-top: 105px;
+  }
+
+  .p3 {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-right: 125px;
+    margin-top: -150px;
+    font-family: 'Proxima Nova';
+    font-size: 18px;
+    z-index: -1;
+  }
+
+  .ui_5 {
+    width: 50px;
+    height: 100px;
+    background-color: #0E408A;
+    margin-right: 25px;
+    margin-top: 200px;
+    border-radius: 50px;
+  }
+
+  .p3 p {
+    margin-right: 50px;
+    margin-top: 202px;
+  }
+
+  .img2 {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    z-index: -1;
+    float: right;
+    position: relative;
+    margin-left: 15px;
+  }
+
+  #page-container {
+    position: relative;
+    min-height: 20vh;
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: #000;
+  }
+  
+  #content-wrap {
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  
+  #content-wrap img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  @keyframes shake {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(1.5px) }
+    50% { transform: translateX(-1.5px) }
+    75% { transform: translateX(1.5px) }
+    100% { transform: translateX(0) }
+  }

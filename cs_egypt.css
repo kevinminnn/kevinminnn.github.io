@@ -1,0 +1,89 @@
+.navbar {
+    background-color: #f8f8ff;
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+    float: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:50px;
+    font-family: 'Proxima Nova';
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #d8e8ff;
+    color: #000;
+}
+
+.title {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    align-items: center;
+    background-color: #9CC4FF;
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+    border-radius: 50px;
+    box-shadow: 2px 2px #cccccc;
+}
+
+.box p {
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 16px
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.image img {
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    object-fit: contain;
+    border: 8px solid #000;
+    border-radius: 25px;
+}
+
+.team_info {
+    margin-top: 15px;
+    font-family: 'Proxima Nova';
+}
+
+.team {
+    text-align: center;
+    font-size: 18px;
+}
+
+.team span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.image2 img{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}

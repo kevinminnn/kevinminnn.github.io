@@ -1,0 +1,26 @@
+1. Overview: For the initial home page, I started with the navigation bar as this would be expected
+at the top of every page. I established a HTML and CSS file that would contain the code for the first page.
+In the body of the code, I created routes for the navigation bar that would lead to different content when
+clicked. Following, I started working on the main content, which I divided into parts, such as banner, image,
+etc. I started the code for the left-side of the page as this was where the primary content was. I also
+included a button that would lead to further information on click from the user. In general, this process
+was the majority of this assignment as creating the UI elements, text boxes, and other elements required
+multiple iterations and attempts in locating the bugs and errors in the code. Following, I created a basic
+footer that I plan to add to in the future. Finally, I wrote the code for a simple animation that involves
+displacing the object within a set parameter within a time frame that makes it appear to "shake." 
+
+2. Issue: My biggest issue that I was able to resolve was with the UI elements. At first, I thought using a PNG
+file to represent the elements would have been the best option. However, upon trying to format it, this simply
+did not work out for the page. Thus, I moved onto my next option, which involved creating flex boxes with
+rounded corners to create my own "organic" decoraters. Although the process was a bit tricky to figure out
+how I could get the elements to behave in the manner I wanted, working with the live server in repetition to
+locate the necessary changes needed was key to creating the elements. 
+
+3. CSS Transition: The CSS transition I decided to use involved using keyframes which allows for an object to
+be displaced by a specific parameter of dimensions. I chose this simple animation as it is not too intrusive,
+and it subtely interacts with the users upon being hovered over. I made this work by following a template of
+how the keyframe animation works and implemented it into my CSS file. Upon integrating the keyframes, I
+applied it into the relevant areas that I wanted to "shake." 
+
+4. Ideas and Future: I would love to figure out a way to make my UI elements and images more interactive,
+whether through animation or through other means. 
