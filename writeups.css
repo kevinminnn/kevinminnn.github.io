@@ -1,0 +1,234 @@
+.navbar {
+    background-color: #f8f8ff;
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+    float: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:50px;
+    font-family: 'Proxima Nova';
+  }
+  
+  .navbar a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    background-color: #d8e8ff;
+    color: #000;
+  }
+
+.mp_1 {
+    display: block;
+    align-self: flex-start;
+    justify-content: flex-start;
+    margin-left: 100px;
+    margin-top: 125px;
+}
+
+.title {
+    font-size: 24px;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+}
+
+.usage {
+    font-size: 18px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 50px;
+    font-weight: bold;
+    line-height: 22px;
+
+}
+
+.usage_content {
+    font-size: 16px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    width: 500px;
+    margin-top: 15px;
+    margin-left: 15px;
+    line-height: 22px;
+
+}
+
+.gif {
+    margin-left: 15px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.dev {
+    font-size: 18px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    line-height: 22px;
+
+}
+
+.dev_content1 {
+    font-size: 16px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    width: 500px;
+    margin-left: 125px;
+    line-height: 22px;
+}
+
+#browser_init {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    margin-left: 100px;
+}
+
+#init_caption {
+    margin-left: 235px;
+    font-family: 'Proxima Nova';
+}
+
+#browser_html {
+    width: 750px;
+    height: 500px;
+    object-fit: contain;
+    margin-left: 25px;
+}
+
+.dev_2 {
+    font-size: 16px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    width: 500px;
+    margin-left: 125px;
+    line-height: 22px;
+}
+
+#browser_init2 {
+    width: 500px;
+    height: 350px;
+    object-fit: contain;
+    margin-left: 100px;
+}
+
+#browser_toggle {
+    width: 500px;
+    height: 150px;
+    object-fit: contain;
+    margin-left: 100px;
+    margin-bottom: 95px;
+}
+
+.dev_3 {
+    font-size: 16px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    width: 500px;
+    margin-left: 125px;
+    line-height: 22px;
+}
+
+.deep_dive {
+    font-size: 18px;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    line-height: 22px;
+
+}
+
+#issue {
+    font-size: 16px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin: 15px;
+    width: 750px;
+    line-height: 22px;
+
+}
+
+#steps {
+    font-size: 16px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin: 25px;
+    width: 750px;
+    line-height: 22px;
+}
+
+#ideas {
+    font-size: 18px;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    width: 500px;
+    margin-left: 100px;
+    line-height: 22px;
+    margin-top: 50px;
+
+}
+
+#changes {
+    font-size: 16px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-left: 125px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+#kudos {
+    font-size: 18px;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+    line-height: 22px;
+}
+
+#help {
+    font-size: 16px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-left: 125px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 45vh;
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: #000;
+  }
+  
+  #content-wrap {
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  
+  #content-wrap img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+
+
