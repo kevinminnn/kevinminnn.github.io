@@ -108,15 +108,15 @@
 }
 
 .button {
-  border: 1px 1px #000;
+  border: 0.15em solid #000; 
   color: #000;
   background-color: #f8f8ff;
-  border-radius: 5px;
+  border-radius: 0.3125em;
   font-family: 'Proxima Nova';
-  height: 35px;
-  width: 125px;
-  margin-top: 60px;
-  margin-left: 135px;
+  height: 2.1875em; 
+  width: 7.8125em; 
+  margin-top: 3.75em; 
+  margin-left: 10em; 
 }
 
 .button:hover {
@@ -139,26 +139,25 @@
 }
 
 #content-wrap {
-  margin-left: 50px;
-  margin-top: 40px;
+  margin-left: 3.125%; 
+  margin-top: 2.5%; 
 }
 
 #content-wrap img {
-  width: 25px;
-  height: 25px;
+  width: 1.5625%; 
+  height: 1.5625%; 
   object-fit: contain;
-  margin-left: 10px;
+  margin-left: 0.625%; 
   cursor: pointer;
 }
 
 .profile img {
   float: right;
-  z-index: -1;
   position: absolute;
-  width: 525px;
-  height: 450px;
-  left: 850px;
-  top: 242px;
+  width: 55%; 
+  height: 55%; 
+  left: 50%; 
+  margin-top: 15%;
   object-fit: contain;
 }
 

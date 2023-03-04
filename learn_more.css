@@ -56,11 +56,11 @@
   .ui_4 {
     border-radius: 2.8125rem;
     overflow: hidden;
-    box-sizing: 18.75rem;
-    height: 3rem;
+    min-block-size: 20rem;
+    min-height: 3.5rem;
     width: 1.5rem;
     background-color: #9CC4FF;
-    margin-top: 1.25%;
+    margin-top: 1%;
     margin-left: 0.3125%;
     margin-right: 1.05%;
     box-shadow: 0.0625rem 0.09375rem #ccc;
@@ -163,17 +163,19 @@
   .img2 {
     width: 50%;
     height: 50%;
+    top: 50%;
     object-fit: contain;
     z-index: -1;
     float: right;
     position: relative;
     margin-left: 1.042%;
-    margin-top: 5%;
+    margin-top: 20vh;
+    margin-bottom: 7.8125rem;
   }
 
   #page-container {
     position: relative;
-    min-height: 45vh;
+    min-height: 20vh;
   }
   
   #footer {
@@ -185,26 +187,27 @@
   }
   
   #content-wrap {
-    margin-left: 50px;
-    margin-top: 40px;
+    margin-left: 3.125rem; 
+    margin-top: 2.5rem;
   }
   
   #content-wrap img {
-    width: 25px;
-    height: 25px;
+    width: 1.5625rem; 
+    height: 1.5625rem; 
     object-fit: contain;
-    margin-left: 10px;
+    margin-left: 0.625rem;
     cursor: pointer;
   }
+  
   
   .profile img {
     float: right;
     z-index: -1;
     position: absolute;
-    width: 525px;
-    height: 450px;
-    left: 850px;
-    top: 242px;
+    width: 32.8125%; 
+    height: 28.125%; 
+    left: 53.125%; 
+    top: 15.125%; 
     object-fit: contain;
   }
   
