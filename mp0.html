@@ -1,35 +1,100 @@
-<!DOCTYPE html>
-
 <html>
-    <head>
-        <link rel="stylesheet" href="./mp0.css" type="text/css" media="all" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet" />
-        <style>
-            @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
-            @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
-            @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap");
 
-            body {
-                background-color: #f8f8ff;
-            }
-        </style>
-    </head>
+<head>
+    <link rel="stylesheet" href="./mp0.css" Type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
 
-    <body>
-        <div class="navbar">
-            <a href="index.html"> Home </a>
-            <a href="case_study_home.html"> Projects </a>
-            <a href="writing.html"> Writing </a>
-            <a href="#graphics"> Graphics </a>
-            <a href="#contact"> Contact </a>
+        body {
+            background-color: #f8f8ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html"> Home </a>
+        <a href="case_study_home.html"> Projects </a>
+        <a href="writing.html"> Writing </a>
+        <a href="#graphics"> Graphics </a>
+        <a href="#contact"> Contact </a>
+    </div>
+
+    <div class="mp_1">
+        <div class="title">
+            <p> MP0 Write-Up: Portfolio Site</p>
+        </div>
+        <div class="usage">
+            1. Overview & Steps:
+        </div>
+        <div class="usage_content">
+            • I started the HTML file, constructing the webpage hierarchy in terms of how I wanted to present the
+            content. <br>
+            • I also sourced the custom font styles through Google API using their free one that is available online.
+            <br>
+            • I created a CSS file that would allow me to customize interface of the portfolio webpage. <br>
+            • I was also able to add animations this way as well. <br>
+            • I also created a navigation bar for easier access around the portfolio site. <br>
+            • I used JS to create the slideshow effect for the case studies/projects. <br>
         </div>
 
-        <div class="main">
-            <text>
-                
-            </text>
+        <div class="issue">
+            2. Issue:
         </div>
-    </body>
+        <div class="issue_content">
+            I had some initial issues with creating the Github repository as I had created a mistake in saving the file
+            location. I resolved this issue by creating a new repository and pasting my code into new files. This became
+            my replacement repository, allowing me to delete the previous one.
+        </div>
+
+        <div class="css">
+            3. CSS Transition:
+        </div>
+        <div class="css_content">
+            I added a small CSS transition that would simulate a shaking effect for some of the UI elements throughout
+            the portfolio site. I added this as I wanted a subtle animation that would be not too obstructive for the
+            viewer’s visual attention. This was achieved with a CSS animation function that uses cubic-bezier to
+            translate the position of the object to simulate the motion effect.
+        </div>
+
+        <div class="gif">
+            <img src="mp0.gif.gif">
+        </div>
+
+        <div class="idea">
+            4. Idea & Future:
+        </div>
+        <div class="idea_content">
+            • In-Site Contact Form <br>
+            • Background Animations <br>
+            • Slideshow Index <br> 
+            • Slideshow Autoscroll <br>
+        </div>
+    </div>
+
+
+    <div id="page-container">
+        <footer id="footer">
+            <div id="content-wrap">
+                <a onclick="window.open('https://www.instagram.com/kevxmin/')" target="_blank">
+                    <img src="insta.png"></img>
+                </a>
+
+                <a onclick="window.open('https://www.linkedin.com/in/kevxmin/')" target="_blank">
+                    <img src="linkedin.png"></img>
+                </a>
+
+                <a onclick="window.open('https://twitter.com/astroboykev/')" target="_blank">
+                    <img src="twitter.png"></img>
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>
