@@ -146,8 +146,8 @@
 .profile img {
   float: right;
   position: absolute;
-  width: 55%; 
-  height: 55%; 
+  width: 47.5vw; 
+  height: 50vh; 
   left: 50%; 
   margin-top: 15%;
   object-fit: contain;
