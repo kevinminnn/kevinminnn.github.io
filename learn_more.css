@@ -3,10 +3,9 @@
     overflow: hidden;
     justify-content: space-between;
     display: flex;
-    float: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top:50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
     font-family: 'Proxima Nova';
   }
   
@@ -14,22 +13,23 @@
     text-align: center;
     text-decoration: none;
     color: #000;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   
   .navbar a:hover {
     background-color: #d8e8ff;
     color: #000;
   }
+  
 
   .greetings {
     justify-content: left;
     font-family: 'Montserrat', 'Black Han Sans';
     font-weight: normal;
-    font-size: 36px;
-    margin-top: 125px;
-    margin-bottom: 25px;
-    margin-left: 125px;
+    font-size: 1.75vw;
+    margin-top: 9.375%;
+    margin-bottom: 1.5625%;
+    margin-left: 9.375%;
     color: #000
   }
 
@@ -47,43 +47,48 @@
   .p1 {
     display: flex;
     align-items: flex-start;
-    margin-left: 135px;
-    margin-right: 125px;
+    margin-left: 7.71875%;
+    margin-right: 10.41667%;
     font-family: 'Proxima Nova';
-    font-size: 18px;
+    font-size: 1vw;
   }
 
   .ui_4 {
-    width: 25px;
-    height: 70px;
-    background-color: #0E408A;
-    margin-right: 25px;
-    margin-top: 10px;
-    border-radius: 50px;
+    border-radius: 2.8125rem;
+    overflow: hidden;
+    box-sizing: 18.75rem;
+    height: 3rem;
+    width: 1.5rem;
+    background-color: #9CC4FF;
+    margin-top: 1.25%;
+    margin-left: 0.3125%;
+    margin-right: 1.05%;
+    box-shadow: 0.0625rem 0.09375rem #ccc;
   }
 
   .img1 {
-    width: 600px;
-    height: 600px;
+    width: 46.875vw;
+    height: 46.875vw;
     object-fit: contain;
     z-index: -1;
-    filter: brightness(95%);
   }
 
   .p2 {
     display: flex;
     align-items: flex-start;
-    margin-left: 100px;
-    margin-right: 125px;
-    margin-top: 10px;
+    margin-left: 6.25%;
+    margin-right: 10.41667%;
+    margin-top: 0.78125%;
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 36px;
+    font-size: 3.75vw;
   }
 
   .banner1 {
-    margin-top: 75px;
+    margin-top: 7.8125%;
     color: #0E408A;
+    font-size: 2.5vw;
+
   }
 
   .banner_text:hover {
@@ -113,57 +118,62 @@
   }
 
   .p2_text p {
-    margin-left: 35px;
-    margin-top: 100px;
-    margin-right: 25px;
+    margin-left: 2.34375%;
+    margin-top: 12.5%;
+    margin-right: 1.5625%;
     font-family: 'Proxima Nova';
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1vw;
     color:#000;
   }
 
   .banner2 {
-    margin-top: 105px;
+    margin-top: 15.625%;  
   }
 
   .p3 {
     display: flex;
     align-items: flex-start;
-    margin-left: 150px;
-    margin-right: 125px;
-    margin-top: -150px;
+    margin-left: 10%;
+    margin-right: 8.33%;
+    margin-top: -20%;
     font-family: 'Proxima Nova';
-    font-size: 18px;
+    font-size: 1.125rem;
     z-index: -1;
   }
 
   .ui_5 {
-    width: 50px;
-    height: 100px;
-    background-color: #0E408A;
-    margin-right: 25px;
-    margin-top: 200px;
-    border-radius: 50px;
+    border-radius: 2.8125rem;
+    overflow: hidden;
+    box-sizing: 18.75rem;
+    height: 6.5rem;
+    width: 3.5rem;
+    background-color: #9CC4FF;
+    margin-top: 25.25%;
+    margin-right: 1.05%;
+    box-shadow: 0.0625rem 0.09375rem #ccc;
   }
 
   .p3 p {
-    margin-right: 50px;
-    margin-top: 202px;
+    margin-right: 4.167%;
+    margin-top: 25.4%;
+    font-size: 1vw;
   }
 
   .img2 {
-    width: 500px;
-    height: 500px;
+    width: 50%;
+    height: 50%;
     object-fit: contain;
     z-index: -1;
     float: right;
     position: relative;
-    margin-left: 15px;
+    margin-left: 1.042%;
+    margin-top: 5%;
   }
 
   #page-container {
     position: relative;
-    min-height: 20vh;
+    min-height: 45vh;
   }
   
   #footer {
@@ -186,11 +196,24 @@
     margin-left: 10px;
     cursor: pointer;
   }
-
+  
+  .profile img {
+    float: right;
+    z-index: -1;
+    position: absolute;
+    width: 525px;
+    height: 450px;
+    left: 850px;
+    top: 242px;
+    object-fit: contain;
+  }
+  
   @keyframes shake {
     0% { transform: translateX(0) }
-    25% { transform: translateX(1.5px) }
-    50% { transform: translateX(-1.5px) }
-    75% { transform: translateX(1.5px) }
+    25% { transform: translateX(0.1rem) }
+    50% { transform: translateX(-0.1rem) }
+    75% { transform: translateX(0.1rem) }
     100% { transform: translateX(0) }
   }
+  
+  

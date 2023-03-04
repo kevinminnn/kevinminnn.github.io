@@ -2,10 +2,9 @@
   background-color: #f8f8ff;
   justify-content: space-between;
   display: flex;
-  float: center;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top:50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
   font-family: 'Proxima Nova';
 }
 
@@ -13,7 +12,7 @@
   text-align: center;
   text-decoration: none;
   color: #000;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .navbar a:hover {
@@ -23,13 +22,13 @@
 
 .banner {
   color: #000;
-  margin-left: 125px;
+  margin-left: 8.25%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 1000;
-  margin-top: 175px;
+  margin-top: 10%;
   line-height: 25%;
-  font-size: 55px;
-  text-shadow: 2px 3px #ccc;
+  font-size: 3.4375rem;
+  text-shadow: 0.0625rem 0.09375rem #ccc;
 }
 
 .banner p:hover {
@@ -42,28 +41,27 @@
   color: #0E408A;
   font-family: 'Montserrat', sans-serif;
   font-weight: 1000;
-  font-size: 55px;
-  text-shadow: 2px 3px #ccc;
+  font-size: 3.4375rem;
+  text-shadow: 0.0625rem 0.09375rem #ccc;
 }
 
 .wrap {
   display: left;
-  border-radius: 45px;
+  border-radius: 2.8125rem;
   overflow: hidden;
-  box-sizing: 250px;
-  height: 100px;
-  width: 450px;
+  box-sizing: 18.75rem;
+  height: 9.375rem;
+  width: 30.09375rem;
   background-color: #9CC4FF;
-  margin-left: 125px;
-  box-shadow: 2px 3px #ccc
+  margin-left: 8.25%;
+  box-shadow: 0.0625rem 0.09375rem #ccc;
 }
 
 .item {
   flex: 1;
-  height: 100px;
-  margin-left: 35px;
-  margin-right: 25px;
-  margin-top: 30px;
+  margin-left: 7.1875%;
+  margin-right: 5.5625%;
+  margin-top: 10.125%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
@@ -71,7 +69,7 @@
 .ui_elements {
   display: flex;
   align-items: flex-start;
-  margin-left: 135px;
+  margin-left: 9.25%;
 }
 
 .ui_elements:hover {
@@ -79,38 +77,34 @@
 }
 
 .ui_1 {
-  border-radius: 45px;
+  border-radius: 2.8125rem;
   overflow: hidden;
-  box-sizing: 250px;
-  height: 20px;
-  width: 125px;
+  box-sizing: 18.75rem;
+  height: 0.75rem;
+  width: 9.375rem;
   background-color: #9CC4FF;
-  margin-top: 15px;
-  box-shadow: 2px 3px #ccc
+  margin-top: 1.25%;
+  box-shadow: 0.0625rem 0.09375rem #ccc;
 }
 
 .ui_2 {
-  border-radius: 45px;
+  border-radius: 2.8125rem;
   overflow: hidden;
-  box-sizing: 250px;
-  height: 20px;
-  width: 20px;
+  box-sizing: 18.75rem;
+  height: 0.85rem;
+  width: 0.625rem;
   background-color: #9CC4FF;
-  margin-top: 15px;
-  margin-left: 10px;
-  box-shadow: 2px 3px #ccc
+  margin-top: 1.25%;
+  margin-left: 0.3125%;
+  box-shadow: 0.0625rem 0.09375rem #ccc;
 }
 
 .ui_3 {
-  border-radius: 45px;
+  border-radius: 2.8125rem;
   overflow: hidden;
-  box-sizing: 250px;
-  height: 20px;
-  width: 50px;
-  background-color: #9CC4FF;
-  margin-top: 15px;
-  margin-left: 10px;
-  box-shadow: 2px 3px #ccc
+  box-sizing: 18.75rem;
+  height: 0.625rem;
+  width: 0.625rem;
 }
 
 .button {
@@ -170,9 +164,9 @@
 
 @keyframes shake {
   0% { transform: translateX(0) }
-  25% { transform: translateX(1.5px) }
-  50% { transform: translateX(-1.5px) }
-  75% { transform: translateX(1.5px) }
+  25% { transform: translateX(0.1rem) }
+  50% { transform: translateX(-0.1rem) }
+  75% { transform: translateX(0.1rem) }
   100% { transform: translateX(0) }
 }
 

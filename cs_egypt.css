@@ -1,89 +1,88 @@
 .navbar {
-    background-color: #f8f8ff;
-    overflow: hidden;
-    justify-content: space-between;
-    display: flex;
-    float: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top:50px;
-    font-family: 'Proxima Nova';
+  background-color: #f8f8ff;
+  overflow: hidden;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  font-family: 'Proxima Nova';
 }
 
 .navbar a {
-    text-align: center;
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.125rem;
 }
 
 .navbar a:hover {
-    background-color: #d8e8ff;
-    color: #000;
+  background-color: #d8e8ff;
+  color: #000;
 }
 
 .title {
-    display:flex;
-    justify-content: center;
-    text-align: center;
+  display:flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .box {
-    align-items: center;
-    background-color: #9CC4FF;
-    width: 200px;
-    height: 50px;
-    margin-top: 100px;
-    border-radius: 50px;
-    box-shadow: 2px 2px #cccccc;
+  align-items: center;
+  background-color: #9CC4FF;
+  width: 12.5rem;
+  height: 3.125rem;
+  margin-top: 6.25rem;
+  border-radius: 50px;
+  box-shadow: 0.125rem 0.125rem #cccccc;
 }
 
 .box p {
-    font-family: 'Montserrat';
-    font-weight: bolder;
-    font-size: 16px
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  font-size: 1rem;
 }
 
 .image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.1875rem;
 }
 
 .image img {
-    display: flex;
-    width: 80vw;
-    height: 80vh;
-    object-fit: contain;
-    border: 8px solid #000;
-    border-radius: 25px;
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  object-fit: contain;
+  border: 0.5rem solid #000;
+  border-radius: 1.5625rem;
 }
 
 .team_info {
-    margin-top: 15px;
-    font-family: 'Proxima Nova';
+  margin-top: 0.9375rem;
+  font-family: 'Proxima Nova';
 }
 
 .team {
-    text-align: center;
-    font-size: 18px;
+  text-align: center;
+  font-size: 1.125rem;
 }
 
 .team span{
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
 }
 
 .image2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.6875rem;
 }
 
 .image2 img{
-    width: 250px;
-    height: 250px;
-    object-fit: contain;
+  width: 15.625rem;
+  height: 15.625rem;
+  object-fit: contain;
 }

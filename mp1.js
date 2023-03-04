@@ -10,7 +10,7 @@ function showSlides() {
     slideIndex = 0;
   }
 
-  setTimeout(showSlides, 3000);
+  setTimeout(showSlides, 5000);
 }
 
 showSlides();
