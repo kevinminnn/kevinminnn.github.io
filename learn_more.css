@@ -44,12 +44,6 @@
     display: inline-block;
   }
 
-  .korean {
-    font-family: 'Black Han Sans';
-    font-weight: normal;
-    display: inline-block;
-  }
-
   .p1 {
     display: flex;
     align-items: flex-start;
@@ -61,10 +55,10 @@
 
   .ui_4 {
     width: 25px;
-    height: 75px;
+    height: 70px;
     background-color: #0E408A;
     margin-right: 25px;
-    margin-top: 8px;
+    margin-top: 10px;
     border-radius: 50px;
   }
 
@@ -73,6 +67,7 @@
     height: 600px;
     object-fit: contain;
     z-index: -1;
+    filter: brightness(95%);
   }
 
   .p2 {
@@ -144,7 +139,7 @@
 
   .ui_5 {
     width: 50px;
-    height: 100px;
+    height: 115px;
     background-color: #0E408A;
     margin-right: 25px;
     margin-top: 200px;

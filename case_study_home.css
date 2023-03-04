@@ -1,3 +1,7 @@
+body {
+  background-color: #f8f8ff;
+}
+
 .navbar {
   background-color: #f8f8ff;
   overflow: hidden;
@@ -23,7 +27,7 @@
 }
 
 .welcome {
-  text-align: center;
+  text-align: left;
   margin-top: 150px;
   line-height: 75%;
   font-family: 'Proxima Nova';
@@ -34,47 +38,46 @@
   color: #0E408A;
   font-family: 'Montserrat';
   font-size: 25px;
+  text-align: center;
 }
 
 .first_text:hover {
   animation: shake 0.5s cubic-bezier(0.5, 0.075, 0.25, 1.0) both;
 }
 
-.slider {
-  width: 1100px;
-  height: 575px;
-  display: flex;
-  position: relative;
-  overflow-x: auto;
-  background-color: #000;
-  color:#d8e8ff;
-  margin: 0 auto;
-  margin-top: 45px;
-  margin-bottom: 100px;
-  border-radius: 50px;
-  box-shadow: 15px 15px #9CC4FF;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;  
+  justify-items: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 125px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  row-gap: 50px;
 }
 
-.slider a {
-  margin-inline: 10px;
-}
-
-.slider a:hover {
-  color:#9CC4FF;
-}
-
-.slide {
-  width: 1100px;
-  height: 575px;
-  object-fit: contain;
-  cursor: pointer;
+.grid-item {
+  background-color: #fff;
+  border: 5px solid #000;
+  padding: 50px;
   text-align: center;
+  width: 300px;
+  height: 300px;
+  font-size: 30px;
+  border-radius: 50px;
 }
 
-.slide img {
-  width: 500px;
-  height: 500px;
+.grid-item img {
+  width: 300px;
+  height: 300px;
   object-fit: contain;
+}
+
+.grid-item img:hover {
+  cursor: pointer;
 }
 
 #page-container {

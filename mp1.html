@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./mp1.css" Type="text/css" media="all"/>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
+    
+          body {
+            background-color: #f8f8ff;
+          }
+        </style>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="index.html"> Home </a>
+            <a href = "case_study_home.html"> Projects </a>
+            <a href = "writing.html"> Writing </a>
+            <a href = "#graphics"> Graphics </a>
+            <a href = "#contact"> Contact </a>
+        </div>
+
+        <div class="mp_1">
+            <div class="title">
+                <p> MP#1 Write-Up: </p>
+            </div>
+            <div class="usage">
+                1. Overview & Usage
+            </div>
+            <div class="usage_content">
+                The Chrome browser extension allows for a day/night mode, which inverts the background and text colors through a simple
+                toggle switch.
+            </div>
+            <div class="gif">
+                <img src="https://media.giphy.com/media/wyKgRvf7EKq3KH0rNw/giphy.gif">
+            </div>
+        </div>
+
+        <div>
+            <div class="dev">
+                2. Development Process
+            </div>
+            <div class="dev_content1">
+                • Created a manifest.json file <br>
+                • Duplicated Google’s json content into manifest.json <br>
+                • Wrote the code for the popup HTML/CSS <br>
+            </div>
+
+
+            <div>
+                <span>
+                    <img id="browser_init" src="browser_init.png" alt="Initial HTML Code">
+                </span>
+
+                <span>
+                    <img id="browser_html" src="browser_html.png" alt="Updated Code">
+                </span>
+            </div>
+
+
+            <div class="dev_2">
+                • Created a JS file for the popup <br>
+                • Connected the popup HTML/CSS with JS <br>
+                • Created a content-script file with another JS file <br>
+
+            </div>
+
+            <div>
+                <span>
+                    <img id="browser_init2" src="browser_init2.png" alt="Initial Extension Design">
+                </span>
+    
+                <span>
+                    <img id="browser_toggle" src="browser_toggle.png" alt="Updated Design">
+                </span>
+            </div>
+
+
+            <div class="dev_3">
+                • Wrote the JS code for the popup <br>
+                • Wrote the JS code for the content-script <br>
+                • Unpacked files into Chrome’s developer mode <br>
+                • Debugged with the browser console using console.log <br>
+            </div>
+        </div>
+
+        <div class="deep_dive">
+            <div>
+                3. Issue Deep-Dive
+            </div>
+            <div id="issue">
+                An issue that occurred was that the event-listener could not receive the message due to a type-error, and thus, failed
+                to execute the program. The issue seemed more of a logic-based error as it involved how I passed a dictionary. This
+                dictionary contained the key-value pair that had a boolean value that would make the program execute its document
+                properties.
+            </div>
+            <div id="steps">
+                My Approach: <br>
+                • Opened the browser console for the error messages <br>
+                • Searched for the specific type of errors and possible solutions <br>
+                • Used the command console.log to determine the location of the bug <br>
+                • Referred to different Internet sources ex. StackOverflow <br>
+                • Checked the properties of Chrome’s API <br>
+                • Attempted different, related commands to check for incompatibilities <br>
+
+            </div>
+        </div>
+
+        <div>
+            <div id="ideas">
+                4. Ideas and Future Work
+            </div>
+            <div id="changes">
+                • Make a more obvious visual signifier upon toggle <br>
+                • Edit more parts of the document properties <br> 
+                • Improve the overall user interface of the popup <br>
+            </div>
+        </div>
+
+        <div>
+            <div id="kudos">
+                5. Kudos
+            </div>
+            <div id="help">
+                Some resources that helped a lot: <br>
+                    • StackOverflow Exchange <br>
+                    • W3 Schools <br>
+                    • developer.chrome.com <br>
+            </div>
+        </div>
+
+        <div id="page-container">
+            <footer id="footer">
+                <div id="content-wrap">
+                    <a onclick="window.open('https://www.instagram.com/kevxmin/')" target="_blank">
+                        <img src="insta.png"></img>
+                    </a>
+      
+                    <a onclick="window.open('https://www.linkedin.com/in/kevxmin/')" target="_blank">
+                        <img src="linkedin.png"></img>
+                    </a>
+      
+                    <a onclick="window.open('https://twitter.com/astroboykev/')" target="_blank">
+                        <img src="twitter.png"></img>
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
