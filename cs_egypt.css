@@ -53,7 +53,7 @@
 .image img {
   display: flex;
   width: 80vw;
-  height: 80vh;
+  max-height: 80vh;
   object-fit: contain;
   border: 0.5rem solid #000;
   border-radius: 1.5625rem;
