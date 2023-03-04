@@ -71,11 +71,12 @@
 }
 
 .ui_1 {
-    width: 7.5vw;
+    width: 18.5vw;
     height: 1.17vw;
     border-radius: 3.125vw;
     background-color: #9CC4FF;
     margin-top: 1.76vw;
+    margin-left: 0.5vw;
 }
 
 .ui_1:hover {

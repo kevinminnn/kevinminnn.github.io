@@ -47,7 +47,7 @@
 
 .wrap {
   display: left;
-  border-radius: 2.8125rem;
+  border-radius: 3rem;
   overflow: hidden;
   box-sizing: 18.75rem;
   height: 9.375rem;
@@ -91,27 +91,19 @@
   border-radius: 2.8125rem;
   overflow: hidden;
   box-sizing: 18.75rem;
-  height: 0.85rem;
+  height: 0.75rem;
   width: 0.625rem;
   background-color: #9CC4FF;
   margin-top: 1.25%;
-  margin-left: 0.3125%;
+  margin-left: 0.5%;
   box-shadow: 0.0625rem 0.09375rem #ccc;
 }
 
-.ui_3 {
-  border-radius: 2.8125rem;
-  overflow: hidden;
-  box-sizing: 18.75rem;
-  height: 0.625rem;
-  width: 0.625rem;
-}
-
 .button {
-  border: 0.15em solid #000; 
+  border: 0.10em solid #000; 
   color: #000;
   background-color: #f8f8ff;
-  border-radius: 0.3125em;
+  border-radius: 0.35em;
   font-family: 'Proxima Nova';
   height: 2.1875em; 
   width: 7.8125em; 
