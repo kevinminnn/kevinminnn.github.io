@@ -1,19 +1,86 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <link rel="stylesheet" href="./mp2.css" Type="text/css" media="all"/>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
-        <style>
-          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
-          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
-          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.sound.js"></script>
+  <script src="mp2.js"></script>
+  <link rel="stylesheet" href="./mp2.css" Type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
+
+    body {
+      background-color: #f8f8ff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="index.html"> Home </a>
+    <a href="project_home.html"> Projects </a>
+    <a href="writing.html"> Writing </a>
+    <a href="#contact"> Contact </a>
+  </div>
+
+  <div class="mp_2">
+    <div class="title">
+      <p> MP2 Write-Up: P5 Gallery</p>
+    </div>
+    <div class="usage">
+      1. Overview & Usage:
+    </div>
+    <div class="usage_content">
+      My project is a collection of different P5 programs that includes the following webpage mediums and styles:
+      static, randomized static, infinite-loop, interactive, audio, and audio-visual interaction. Throughout the process
+      of advancing stages, each one had shared code structure and syntax, allowing for the programs to build off each
+      other. The last stage, audio-visual interaction, is a project that cohesively covers the aforementioned stages’
+      ideas.
+    </div>
+
+    <div>
+      <div class="dev">
+          2. Development Process
+      </div>
+      <div class="dev_content">
+        <div class="dev_title">
+          Static:
+        </div>
+        • I used the P5 web editor to run my code and debug issues before adding any into my site code. <br>
+        • I started a file for the static project. Each had a created canvas and a background color. <br>
+        • I set relevant global variables that appear throughout the code. <br>
+        • I created a for-loop that would repeat the draw function. <br>
+        • This was enabled by a call to another function. <br>
+        • The called function created the content in terms of the color, framing, number, and shape. <br>
+      </div>
     
-          body {
-            background-color: #f8f8ff;
-          }
-        </style>
-    </head>
+      <div class="container1">
+        <div class="program1">
+          <iframe src="p1.html"></iframe>
+        </div>
+      </div>
+      
+      <div class="step_2">
+        • Following, for the random static project, I set a random seed value, which acts as a random number generator. <br>
+        • I created a draw function that iterates, assigning randomized value to the shape variables. <br>
+        • This determined the coordinates and color values of the shapes. <br>
+        
+      </div>
+
+      <div class="container2">
+        <div class="program2">
+          <button onclick="document.getElementsByName('myiframe')[0].contentWindow.location.reload()">Refresh</button>
+          <iframe name="myiframe" src="p2.html"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>

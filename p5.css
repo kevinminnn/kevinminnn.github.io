@@ -1,0 +1,319 @@
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.container1 {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#item1 {
+    padding: 50px;
+    width: 250px;
+    height: 150px;
+}
+
+#item1:hover {
+    color: red;
+}
+  
+#b1 {
+    border: 3px solid black;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 25px;
+    background-image: url("https://logos-world.net/wp-content/uploads/2021/08/Among-Us-Logo.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px #000;
+}
+
+#b1:hover {
+    cursor:pointer;
+}
+
+#text1 {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#item2 {
+    padding: 50px;
+    width: 250px;
+    height: 150px;
+}
+
+#item2:hover {
+    color: red;
+}
+  
+#b2 {
+    border: 3px solid black;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 25px;
+    background-image: url("https://i.pinimg.com/564x/50/6e/e2/506ee22b38ada4c5390498809fca404f.jpg");
+    background-position: 3px 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px #000;
+}
+
+#b2:hover {
+    cursor:pointer;
+}
+
+#text2 {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#item3 {
+    padding: 50px;
+    width: 250px;
+    height: 150px;
+}
+
+#item3:hover {
+    color: red;
+}
+  
+#b3 {
+    border: 3px solid black;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 25px;
+    background-image: url("https://png.pngitem.com/pimgs/s/222-2222782_monstersinc-mikewazowski-sulli-sully-shrek-meme-mike-wazowski.png");
+    background-position: 3px 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 2px 2px #000;
+}
+
+#b3:hover {
+    cursor:pointer;
+}
+
+#text3 {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.container2 {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+#item4 {
+    padding: 50px;
+    width: 250px;
+    height: 150px;
+}
+
+#item4:hover {
+    color: red;
+}
+  
+#b4 {
+    border: 3px solid black;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 25px;
+    background-image: url("https://carboncostume.com/wordpress/wp-content/uploads/2021/10/carlwheezer-boygenius-character.jpg");
+    background-position: 3px 0px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 2px 2px #000;
+}
+
+#b4:hover {
+    cursor:pointer;
+}
+
+#text4 {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#item5 {
+    width: 250px;
+    height: 150px;
+    padding: 50px;
+}
+
+#item5:hover {
+    color: red;
+}
+  
+#b5 {
+    border: 3px solid black;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 25px;
+    background-image: url("https://wallpapers.com/images/hd/sad-meme-face-wvyae4vy4w6ld6xt.jpg");
+    background-position: 50px 1px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 2px 2px #000;
+}
+
+#b5:hover {
+    cursor:pointer;
+}
+
+#text5 {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#item6 {
+    width: 250px;
+    height: 150px;
+    padding: 50px;
+}
+
+#item6:hover {
+    color: red;
+}
+  
+#b6 {
+    border: 3px solid black;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 25px;
+    background-image: url("https://i.kym-cdn.com/entries/icons/original/000/024/790/squidward.jpg");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px #000;
+}
+
+#b6:hover {
+    cursor:pointer;
+}
+
+#text6 {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.container3 {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+#item7 {
+    width: 250px;
+    height: 150px;
+    padding: 50px;
+
+}
+
+#item7:hover {
+    color: red;
+}
+  
+#b7 {
+    border: 3px solid black;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 25px;
+    background-image: url("https://i.kym-cdn.com/entries/icons/original/000/037/848/cover2.jpg");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px #000;
+}
+
+#b7:hover {
+    cursor:pointer;
+}
+
+#text7 {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#item8 {
+    width: 250px;
+    height: 150px;
+    padding: 50px;
+
+}
+
+#item8:hover {
+    color: red;
+}
+  
+#b8 {
+    border: 3px solid black;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 25px;
+    background-image: url("https://toppng.com/uploads/preview/minecraft-villager-farmer-minecraft-villager-no-background-11562914429cfeqqvrfer.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px #000;
+}
+
+#b8:hover {
+    cursor:pointer;
+}
+
+#text8 {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
