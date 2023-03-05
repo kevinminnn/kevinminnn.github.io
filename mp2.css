@@ -89,9 +89,9 @@ iframe {
     border: none;
     overflow: hidden;
     box-sizing: content-box;
-    height: 100vh;
-    width: 100vw;
-    margin-left: 57.5vw;
+    height: 42.5rem;
+    width: 100rem;
+    margin-left: 57.75rem;
 }
 
 .container1 {
@@ -99,18 +99,24 @@ iframe {
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
+    margin-left: 5.5vw;
+    margin-top: 10vh;
 }
 
 .step_2 {
     font-size: 1vw;
     font-family: 'Proxima Nova';
     font-weight: normal;
-    margin-top: 1.5vh;
     margin-left: 20.5vw;
     line-height: 1.5vw;
     text-align: left;
     margin-bottom: 10vh;
+}
+
+.step2_title {
+    font-weight: bold;
+    font-size: 1.05vw;
 }
 
 .container2 {
@@ -118,7 +124,6 @@ iframe {
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
-    margin-bottom: 5vh;
 }
 
 .program2 {
@@ -126,7 +131,7 @@ iframe {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 147.25vw;
+    width: 145.95rem;
 }
 
 .program2 button {
@@ -134,15 +139,203 @@ iframe {
     justify-content: center;
     align-items: center;
     background-color: #0E408A;
-    height: 5vh;
-    width: 10vw;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
-    margin-left: 0.575vw;
-    border: 1vw 1vw #0E408A;
-    border-radius: 5vw;  
+    height: 2.25rem;
+    width: 10rem;
+    margin-bottom: 2.5rem;
+    margin-left: 0.575rem;
+    border: 0.5rem 0.5rem #0E408A;
+    border-radius: 5rem;  
     color: #FFF;
     font-family: 'Proxima Nova'; 
 }
+
+.program2 button:hover {
+    cursor: pointer;
+}
+
+.step_3 {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-left: 20.5vw;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 20.5rem;
+
+}
+
+.step3_title {
+    font-weight: bold;
+    font-size: 1.05vw;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.program3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 155rem;
+}
+
+.program3 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E408A;
+    height: 2.25rem;
+    width: 10rem;
+    margin-bottom: 2.5rem;
+    margin-left: 0.575rem;
+    border: 0.5rem 0.5rem #0E408A;
+    border-radius: 5rem;  
+    color: #FFF;
+    font-family: 'Proxima Nova'; 
+}
+
+.program3 button:hover {
+    cursor: pointer;
+}
+
+.step_4 {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-left: 20.5vw;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-top: 10rem;
+    margin-right: 20.5rem;
+
+}
+
+.step4_title {
+    font-weight: bold;
+    font-size: 1.05vw;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-right: 75rem;
+    margin-left: 55rem;
+}
+
+.program4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 75rem;
+}
+
+.step_5 {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-left: 20.5vw;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-top: 10rem;
+    margin-right: 20.5rem;
+
+}
+
+.step5_title {
+    font-weight: bold;
+    font-size: 1.05vw;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-right: 75rem;
+    margin-left: 55rem;
+    height: 55rem;
+    background-color: #000;
+}
+
+.program5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 75rem;
+    background-color: #0E408A;
+}
+
+.step_6 {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-left: 20.5vw;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-top: 10rem;
+    margin-right: 20.5rem;
+}
+
+.step6_title {
+    font-weight: bold;
+    font-size: 1.05vw;
+}
+
+.container6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-right: 75rem;
+    margin-left: 55rem;
+    height: 50rem;
+    background-color: #000; 
+}
+
+.program6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 75rem;
+    background-color: #FFF;
+}
+
+#page-container {
+    position: relative;
+    min-height: 45vh;
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: #000;
+  }
+  
+  #content-wrap {
+    margin-left: 3.125%; 
+    margin-top: 2.5%; 
+  }
+  
+  #content-wrap img {
+    width: 1.5625%; 
+    height: 1.5625%; 
+    object-fit: contain;
+    margin-left: 0.625%; 
+    cursor: pointer;
+  }
+
+
 
   

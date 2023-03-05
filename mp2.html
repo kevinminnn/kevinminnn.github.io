@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html>  
 
 <head>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
@@ -46,7 +46,7 @@
 
     <div>
       <div class="dev">
-          2. Development Process
+        2. Development Process
       </div>
       <div class="dev_content">
         <div class="dev_title">
@@ -59,18 +59,21 @@
         • This was enabled by a call to another function. <br>
         • The called function created the content in terms of the color, framing, number, and shape. <br>
       </div>
-    
+
       <div class="container1">
         <div class="program1">
           <iframe src="p1.html"></iframe>
         </div>
       </div>
-      
+
       <div class="step_2">
-        • Following, for the random static project, I set a random seed value, which acts as a random number generator. <br>
+        <div class="step2_title">
+          Randomized Static:
+        </div>
+        • Following, for the random static project, I set a random seed value, which acts as a random number generator.
+        <br>
         • I created a draw function that iterates, assigning randomized value to the shape variables. <br>
         • This determined the coordinates and color values of the shapes. <br>
-        
       </div>
 
       <div class="container2">
@@ -79,8 +82,96 @@
           <iframe name="myiframe" src="p2.html"></iframe>
         </div>
       </div>
+
+      <div class="step_3">
+        <div class="step3_title">
+          Infinite-Loop:
+        </div>
+        • Next, for the infinite-loop project, I set relevant global variables. <br>
+        • The setup function iterates, assigning randomized value to the shape variables. <br>
+        • Within an array, we push and save the randomized shapes’ values. <br>
+        • Using the canvas coordinates, we assign the center of rotation. <br>
+        • With the randomized variables and center coordinates, I created a function that iterates, determining the
+        diameter, position, and speed. <br>
+      </div>
+
+      <div class="container3">
+        <div class="program3">
+          <button onclick="document.getElementsByName('myiframe')[1].contentWindow.location.reload()">Refresh</button>
+          <iframe name="myiframe" src="p3.html"></iframe>
+        </div>
+      </div>
+
+      <div class="step_4">
+        <div class="step4_title">
+          Interactive:
+        </div>
+        • After, for the interactive project, I set an array as a global variable and created a canvas. <br>
+        • I set a variable that would represent the completion time per second or FPS. <br>
+        • Through an iterative process, the array would be updated with frames, which had a set timer based on the array
+        length. <br>
+        • For the next function, I used the canvas coordinates and frameCount function to push the frames onto the
+        canvas as visual graphics. <br>
+        • Additionally, there was a class used to represent the shape’s framing, color, lifespan, and position. <br>
+        • Try dragging your mouse on the canvas below!
+      </div>
+
+      <div class="container4">
+        <div class="program4">
+          <iframe name="myiframe" src="p4.html"></iframe>
+        </div>
+      </div>
+
+      <div class="step_5">
+        <div class="step5_title">
+          Audio:
+        </div>
+        • For the audio project, I created a HTML file that constructed a table with buttons. <br>
+        • For each button, on click of the user’s mouse, the JavaScript function is called and executed. <br>
+        • Following, I created a CSS file that would contain the code that determined the font properties as well as the
+        soundboard interface design. <br>
+        • Afterwards, I created a JS file that would contain the code that determined the behavior of each button, which
+        would execute a function that would play a sound through assigning local audio mp3 files as variables. <br>
+      </div>
+    </div>
+
+    <div class="container5">
+      <div class="program5">
+        <iframe name="myiframe" src="p5.html"></iframe>
+      </div>
+    </div>
+
+    <div class="step_6">
+      <div class="step6_title">
+        Audio-Visual Interaction:
+      </div>
+      • Finally, for the audio-visual interaction project, I took parts of my code from the audio and infinite loop
+      project as a foundation for the program.
+    </div>
+
+    <div class="container6">
+      <div class="program6">
+        <iframe name="myiframe" src="p6.html"></iframe>
+      </div>
     </div>
   </div>
-</body>
 
+  <div id="page-container">
+    <footer id="footer">
+        <div id="content-wrap">
+            <a onclick="window.open('https://www.instagram.com/kevxmin/')" target="_blank">
+                <img src="insta.png"></img>
+            </a>
+
+            <a onclick="window.open('https://www.linkedin.com/in/kevxmin/')" target="_blank">
+                <img src="linkedin.png"></img>
+            </a>
+
+            <a onclick="window.open('https://twitter.com/astroboykev/')" target="_blank">
+                <img src="twitter.png"></img>
+            </a>
+        </div>
+    </footer>
+  </div>
+</body>
 </html>
