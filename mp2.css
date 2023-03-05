@@ -307,12 +307,80 @@ iframe {
     align-items: center;
     flex-direction: column;
     margin-right: 75rem;
-    background-color: #FFF;
+    background-color: #f8f8ff;
+}
+
+.deep_dive {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+#issue {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 15.5vw;
+}
+
+
+#ideas {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+#changes {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 15.5vw;
+    margin-left: 20.5vw;
+}
+
+#kudos {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+#help {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 15.5vw;
+    margin-left: 20.5vw;
+    margin-bottom: 7.8125rem;
+
 }
 
 #page-container {
     position: relative;
-    min-height: 45vh;
+    min-height: 35vh;
 }
   
 #footer {
