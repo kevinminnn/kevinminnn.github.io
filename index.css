@@ -117,6 +117,24 @@
   cursor: pointer;
 }
 
+.button2 {
+  border: 0.10em solid #000; 
+  color: #000;
+  background-color: #f8f8ff;
+  border-radius: 0.35em;
+  font-family: 'Proxima Nova';
+  height: 2.1875em; 
+  width: 7.8125em; 
+  margin-top: 3.75em; 
+  margin-left: 1em; 
+}
+
+.button2:hover {
+  background-color: #d8e8ff;
+  color: #000;
+  cursor: pointer;
+}
+
 #page-container {
   position: relative;
   min-height: 45vh;
