@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./contact.css" Type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
+
+        body {
+            background-color: #f8f8ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html"> Home </a>
+        <a href="project_home.html"> Projects </a>
+        <a href="writing.html"> Writing </a>
+        <a href="contact.html"> Contact </a>
+    </div>
+
+    <div class="body">
+        <form id="contact-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" required></textarea>
+    
+            <button type="submit" id="submit">Send Message</button>
+    
+            <div id="form-message"></div>
+        </form>
+    </div>
+    
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script src="onsubmit.js"></script>
+</body>
+
+<div id="page-container">
+    <footer id="footer">
+        <div id="content-wrap">
+            <a onclick="window.open('https://www.instagram.com/kevxmin/')" target="_blank">
+                <img src="insta.png"></img>
+            </a>
+
+            <a onclick="window.open('https://www.linkedin.com/in/kevxmin/')" target="_blank">
+                <img src="linkedin.png"></img>
+            </a>
+
+            <a onclick="window.open('https://twitter.com/astroboykev/')" target="_blank">
+                <img src="twitter.png"></img>
+            </a>
+        </div>
+    </footer>
+</div>
+</html>
