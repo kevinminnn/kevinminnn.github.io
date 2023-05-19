@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.sound.js"></script>
+    <script src="mp2.js"></script>
+    <link rel="stylesheet" href="./mp3.css" Type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <style>
+        .game-link {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function openGamePage() {
+            var gameWindow = window.open("https://kevinminnn.github.io/p5-game", "gameWindow", "width=800, height=600");
+            gameWindow.focus();
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
+
+        body {
+            background-color: #f8f8ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html"> Home </a>
+        <a href="project_home.html"> Projects </a>
+        <a href="writing.html"> Writing </a>
+        <a href="contact.html"> Contact </a>
+    </div>
+
+    <div class="mp_3">
+        <div class="title">
+            <p> MP3 Write-Up: Dev Toolchain</p>
+        </div>
+        <div class="usage">
+            1. Overview & Usage:
+        </div>
+        <div class="usage_content">
+            My project uses the P5 and P5 Play libraries to execute a basic pong game. It uses simple derivatives and
+            built-in functions to create the changing positions of the ball and the opponent paddle. <br>
+
+            <div class="game-container">
+                <iframe class="game-iframe" src="https://kevinminnn.github.io/p5-game"></iframe>
+            </div>
+        </div>
+
+        <div>
+            <div class="dev">
+                2. Development Process
+            </div>
+            <div class="dev_content">
+                • I set up my development environment using NPM. <br>
+                • Following, I used the P5 editor to visualize the ball and paddles. <br>
+                • In addition, I also used the editor to experiment with the game logic. <br>
+                • I continued to make edits, adding components such as the game over screen, restart function, and score
+                tracker. <br>
+                • After, I used esbuild to bundle my code and Github Pages to deploy it. <br>
+            </div>
+        </div>
+
+        <div class="deep_dive">
+            <div>
+                3. Issue Deep-Dive
+            </div>
+            <div id="issue">
+                Initially, I had trouble with the ball and paddles correctly working. The program would often show the
+                game over screen on the initial hit of the paddle with the ball. The parameters that dictated when the
+                ball would be considered out of bounds conflicted with its dimensions and position with the paddles.
+                This was due to me initially wanting to trigger the game over screen on the ball passing a certain
+                distance threshold. As a result, the game went through numerous bugs, such as the game over screen
+                triggering on impact with the opponent paddle and conflicts with the active components of the visuals.
+                What worked instead, was making it trigger upon not hitting the paddles instead. Using the simple
+                constrain function allowed me to designate a set area as the “safe” area that would return the ball.
+            </div>
+        </div>
+
+        <div>
+            <div id="ideas">
+              4. Ideas and Future Work
+            </div>
+            <div id="changes">
+              • More sophisticated opponent logic <br>
+            </div>
+          </div>
+        
+          <div>
+            <div id="kudos">
+              5. Kudos
+            </div>
+            <div id="help">
+              • P5 Reference Page <br>
+            </div>
+          </div>
+        
+          <div id="page-container">
+            <footer id="footer">
+              <div id="content-wrap">
+                <a onclick="window.open('https://www.instagram.com/kevxmin/')" target="_blank">
+                  <img src="insta.png"></img>
+                </a>
+        
+                <a onclick="window.open('https://www.linkedin.com/in/kevxmin/')" target="_blank">
+                  <img src="linkedin.png"></img>
+                </a>
+        
+                <a onclick="window.open('https://twitter.com/astroboykev/')" target="_blank">
+                  <img src="twitter.png"></img>
+                </a>
+              </div>
+            </footer>
+          </div>
+        </body>
+    </div>
+</body>
+
+</html>

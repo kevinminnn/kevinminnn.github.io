@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.sound.js"></script>
+    <script src="mp2.js"></script>
+    <link rel="stylesheet" href="./final_project.css" Type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
+
+        body {
+            background-color: #f8f8ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html"> Home </a>
+        <a href="project_home.html"> Projects </a>
+        <a href="writing.html"> Writing </a>
+        <a href="contact.html"> Contact </a>
+    </div>
+
+    <div class="project">
+        <div class="title">
+            <p> Pokemon/Genshin-Inspired RPG Game </p>
+        </div>
+        <div id="game-container">
+            <a href="https://play.unity.com/mg/other/pokemon-rpg" target="_blank" class="game-button">CLICK HERE TO
+                PLAY!</a>
+        </div>
+        <div class="proposal">
+            <p> Project Proposal </p>
+        </div>
+    </div>
+    <div class="description">
+        1. Project Description:
+    </div>
+    <div class="desc_content">
+        For my final project, I want to build off MP3 and continue in the direction of game development. Inspired by
+        Genshin Impact and Pokemon series, the intended goal of the project is to create a turn-based RPG game that
+        features different elemental reactions, which have varying effects depending on which interact. The player
+        will control a team of characters with different elemental abilities, each with their own strengths and
+        weaknesses. The game will have a unique battle system that emphasizes strategic decision-making and careful
+        planning. The story of the game will take place in a fantasy world, hopefully with a rich lore and cast of
+        unique characters.
+    </div>
+    <div class="visual">
+        2. Project Visuals:
+    </div>
+    <div class="visual_content">
+        The game will feature pixel art graphics that evoke a feeling of nostalgia, resembling classic RPGs. The
+        characters, enemies, and environments will be designed to have a consistent visual style. The UI will be
+        simple and intuitive, with clear indicators of turn order, health, and elemental strengths and weaknesses.
+    </div>
+    <div class="version">
+        3. Project Versions:
+    </div>
+    <div class="version_content">
+        • Prototype: The prototype version of the game will include the basic gameplay mechanics, such as turn-based
+        battles, elemental reactions, character abilities, and a basic story introduction. <br>
+        • Final: The final version of the game will include polished graphics, improved gameplay mechanics, a
+        complete story arc, and additional features such as a shop, side quests, and boss battles. <br>
+    </div>
+    <div class="plan">
+        4. Development Plan:
+    </div>
+    <div class="plan_content">
+        • Establish power system and world-building <br>
+        • Create a visual asset of the characters, objects, and environments <br>
+        • Visualize character and sequence animations <br>
+        • Implement game logic, battle behaviors, and elemental reactions <br>
+        • Visualize character prompts and input-driven action sequences <br>
+        • Polish finer details and technicals of the game <br>
+    </div>
+    <div class="unknown">
+        5. Unknown Components:
+    </div>
+    <div class="unknown_content">
+        • Integrating different elemental reactions in a turn-based system may require some experimentation to
+        figure out the balance and mechanics of it. <br>
+        • Developing a rich and engaging story that complements the gameplay may require additional research and
+        writing. <br>
+        • Creating pixel art graphics and animations that allow for more complex motions. <br>
+    </div>
+    <div class="goals">
+        6. Stretch Goals:
+    </div>
+    <div class="goals_content">
+        • Implementing multiplayer features to allow players to compete or cooperate with each other.
+        • Add environmental factors and weather changes that affect gameplay.
+    </div>
+
+    <div class="prototype">
+        <p> Project Prototype </p>
+    </div>
+
+    <div class="usage">
+        1. Overview & Usage:
+    </div>
+    <div class="usage_content">
+        My project is a mock Pokemon RPG game on Unity Engine that utilizes decision-based battles.
+    </div>
+
+    <div>
+        <div class="dev">
+            2. Development Process
+        </div>
+        <div class="dev_content">
+            • I downloaded Unity Engine and all relevant assets, such as sprite and tile maps. <br>
+            • I used Tiled editor to visualize a map. <br>
+            • Using the tile editor in Unity Engine, I created a visual map of explorable areas with separate layers
+            based on category and priority. <br>
+            • Using scripts, I added physics to the in-game solid objects so that there was collision upon impact with a
+            user’s character. <br>
+            • In addition, using the animation editor, I added running animations to the user’s character. <br>
+            • After, I created scripted units that would represent the user’s and opponent’s battle entities. <br>
+            • Following, I started the battle sequence, which involved creating another, separate UI and configured
+            camera. This involved the action and move selection menus. <br>
+            • I created HP bars and scripted the UI so that it would transform based on the battle entity’s stats. <br>
+            • In addition to a set formula that calculated the damage based on the battle entity’s stats, I also added
+            critical hits. <br>
+            • Finally, I created some simple battle animations that would transform the sprite’s position. <br>
+        </div>
+    </div>
+
+    <div class="deep_dive">
+        <div>
+            3. Issue Deep-Dive
+        </div>
+        <div id="issue">
+            Throughout the process, I struggled with managing all the objects that would be referenced across numerous
+            other files. Mapping it out helped me keep organized and debug any issues that would come up from
+            incorrectly referenced objects.
+        </div>
+    </div>
+
+    <div>
+        <div id="ideas">
+            4. Ideas and Future Work
+        </div>
+        <div id="changes">
+            • Adding more maps and entities <br>
+        </div>
+    </div>
+
+    <div>
+        <div id="scope">
+            5. Project Scope
+        </div>
+        <div id="scope_content">
+            For my project scope, I wanted to expand a bit and try to add elemental reaction or damage into the project.
+            Although I had some additional battle entities scripted into the game, I did not want to overwhelm myself
+            with adding them into the game, so I wanted to sophisticate the damage calculations.
+        </div>
+    </div>
+
+    <div>
+        <div id="time">
+            6. Time Management
+        </div>
+        <div id="time_content">
+            There were many setbacks as this was also one of my first projects in Unity. I spent much time trying to
+            learn and apply the basics of the editor environment and object-oriented programming.
+        </div>
+    </div>
+
+    <div>
+        <div id="implement">
+            7. Implementation Plan
+        </div>
+        <div id="implement_content">
+            My plan has changed to only implement a small snippet of the game. Especially as this is a project that I
+            want to continue working on, I wanted to steer the project more towards the idea I had envisioned, and not
+            rush the development process.
+        </div>
+    </div>
+
+    <div>
+        <div id="kudos">
+            8. Kudos
+        </div>
+        <div id="help">
+            Youtube (especially this channel: https://www.youtube.com/@GameDevExperiments)
+        </div>
+    </div>
+
+    <div class="final">
+        <p> Final Project </p>
+    </div>
+    <div class="usage">
+        1. Overview & Usage:
+    </div>
+    <div class="usage_content">
+        My project is a mock Pokemon RPG game on Unity Engine that utilizes decision-based battles with elemental
+        reactions borrowed from another popular RPG game, Genshin Impact. It is hosted through WebGL and Unity
+        Engine as a playable online game.
+    </div>
+
+    <div>
+        <div class="dev">
+            2. Development Process
+        </div>
+        <div class="dev_content">
+            • From the initial prototype, I added a form of elemental reactions by adding arrays into the code that
+            would represent the effectiveness of each type. <br>
+            • Following, I edited some minor bugs in the map and cleaned the overall structure and aesthetics. <br>
+            • Using the Unity Engine Editor, I installed and used the WebGL Publisher to save it as a project and
+            prepare it for deployment. <br>
+        </div>
+    </div>
+
+    <div class="deep_dive">
+        <div>
+            3. Issue Deep-Dive
+        </div>
+        <div id="issue">
+            I was having trouble deploying the project as I had hosted it on a local server instead. After reading
+            up more about WebGL on Unity’s website, I found the Publisher and installed the necessary components to
+            publish it online.
+        </div>
+    </div>
+
+    <div>
+        <div id="ideas">
+            4. Ideas and Future Work
+        </div>
+        <div id="changes">
+            • Adding the scripted units into the game <br>
+            • Improving the elemental reactions to include more interactive qualities <br>
+            • Expanding the elemental base <br>
+        </div>
+    </div>
+
+    <div>
+        <div id="kudos">
+            5. Kudos
+        </div>
+        <div id="help">
+            • https://docs.unity3d.com/Manual/index.html <br>
+        </div>
+    </div>
+</div>
+
+<div id="page-container">
+    <footer id="footer">
+      <div id="content-wrap">
+        <a onclick="window.open('https://www.instagram.com/kevxmin/')" target="_blank">
+          <img src="insta.png"></img>
+        </a>
+
+        <a onclick="window.open('https://www.linkedin.com/in/kevxmin/')" target="_blank">
+          <img src="linkedin.png"></img>
+        </a>
+
+        <a onclick="window.open('https://twitter.com/astroboykev/')" target="_blank">
+          <img src="twitter.png"></img>
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

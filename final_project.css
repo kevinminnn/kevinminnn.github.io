@@ -1,0 +1,436 @@
+.navbar {
+    background-color: #f8f8ff;
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    font-family: 'Proxima Nova';
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.125rem;
+}   
+
+.navbar a:hover {
+    background-color: #d8e8ff;
+    color: #000;
+}
+
+.project {
+    display: block;
+    align-self: flex-start;
+    justify-content: flex-start;
+    margin-top: 15vh;
+}
+
+.title {
+    font-size: 1.75vw;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-align: center;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.game-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #0E408A;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.game-button:hover {
+    background-color: #175BBD;
+}
+
+.game-button::before {
+    margin-right: 0.5rem;
+}
+
+.proposal {
+    font-size: 1.5vw;
+    font-family: 'Proxima Nova';
+    margin-top: 10vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 17.5vw;
+    color: #0E408A;
+}
+
+.description {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+.desc_content {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    margin-left: 20.5vw;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 22.5vw;
+}
+
+.visual {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+.visual_content {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    margin-left: 20.5vw;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 22.5vw;
+}
+
+.version {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+.version_content {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    margin-left: 20.5vw;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 22.5vw;
+}
+
+.plan {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+.plan_content {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    margin-left: 20.5vw;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 22.5vw;
+}
+
+.unknown {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+.unknown_content {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    margin-left: 20.5vw;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 22.5vw;
+}
+
+.goals {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+.goals_content {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    margin-left: 20.5vw;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 22.5vw;
+}
+
+.prototype {
+    font-size: 1.5vw;
+    font-family: 'Proxima Nova';
+    margin-top: 20vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 17.5vw;
+    color: #0E408A;
+}
+
+.usage {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+.usage_content {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    margin-left: 20.5vw;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 22.5vw;
+}
+
+.dev {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+.dev_title {
+    font-weight: bold;
+    font-size: 1.05vw;
+}
+
+.dev_content {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    margin-left: 20.5vw;
+    line-height: 1.5vw;
+    text-align: left;
+}
+
+.deep_dive {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+#issue {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 15.5vw;
+}
+
+
+#ideas {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+#changes {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 15.5vw;
+    margin-left: 20.5vw;
+}
+
+#scope {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+#scope_content {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 15.5vw;
+    margin-left: 20.5vw;
+}
+
+#time {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+#time_content {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 15.5vw;
+    margin-left: 20.5vw;
+}
+
+#implement {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+#implement_content {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 15.5vw;
+    margin-left: 20.5vw;
+}
+
+#kudos {
+    font-size: 1.2vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 5vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 19.5vw;
+}
+
+#help {
+    font-size: 1vw;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    margin-top: 1.5vh;
+    line-height: 1.5vw;
+    text-align: left;
+    margin-right: 15.5vw;
+    margin-left: 20.5vw;
+    margin-bottom: 7.8125rem;
+
+}
+
+.final {
+    font-size: 1.5vw;
+    font-family: 'Proxima Nova';
+    margin-top: 20vh;
+    font-weight: bold;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-left: 17.5vw;
+    color: #0E408A;
+}
+
+#page-container {
+    position: relative;
+    min-height: 25vh;
+}
+  
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: #000;
+}
+
+#content-wrap {
+    margin-left: 3.125%; 
+    margin-top: 2.5%; 
+}
+
+#content-wrap img {
+    width: 1.5625%; 
+    height: 1.5625%; 
+    object-fit: contain;
+    margin-left: 0.625%; 
+    cursor: pointer;
+}
