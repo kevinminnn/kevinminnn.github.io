@@ -74,57 +74,56 @@
         </div>
 
         <div class="deep_dive">
-            <div>
-                3. Issue Deep-Dive
-            </div>
-            <div id="issue">
-                Initially, I had trouble with the ball and paddles correctly working. The program would often show the
-                game over screen on the initial hit of the paddle with the ball. The parameters that dictated when the
-                ball would be considered out of bounds conflicted with its dimensions and position with the paddles.
-                This was due to me initially wanting to trigger the game over screen on the ball passing a certain
-                distance threshold. As a result, the game went through numerous bugs, such as the game over screen
-                triggering on impact with the opponent paddle and conflicts with the active components of the visuals.
-                What worked instead, was making it trigger upon not hitting the paddles instead. Using the simple
-                constrain function allowed me to designate a set area as the “safe” area that would return the ball.
-            </div>
-        </div>
-
-        <div>
-            <div id="ideas">
-              4. Ideas and Future Work
-            </div>
-            <div id="changes">
-              • More sophisticated opponent logic <br>
-            </div>
-          </div>
-        
           <div>
-            <div id="kudos">
-              5. Kudos
-            </div>
-            <div id="help">
-              • P5 Reference Page <br>
-            </div>
+              3. Issue Deep-Dive
           </div>
-        
-          <div id="page-container">
-            <footer id="footer">
-              <div id="content-wrap">
-                <a onclick="window.open('https://www.instagram.com/kevxmin/')" target="_blank">
-                  <img src="insta.png"></img>
-                </a>
-        
-                <a onclick="window.open('https://www.linkedin.com/in/kevxmin/')" target="_blank">
-                  <img src="linkedin.png"></img>
-                </a>
-        
-                <a onclick="window.open('https://twitter.com/astroboykev/')" target="_blank">
-                  <img src="twitter.png"></img>
-                </a>
-              </div>
-            </footer>
+          <div id="issue">
+              Initially, I had trouble with the ball and paddles correctly working. The program would often show the
+              game over screen on the initial hit of the paddle with the ball. The parameters that dictated when the
+              ball would be considered out of bounds conflicted with its dimensions and position with the paddles.
+              This was due to me initially wanting to trigger the game over screen on the ball passing a certain
+              distance threshold. As a result, the game went through numerous bugs, such as the game over screen
+              triggering on impact with the opponent paddle and conflicts with the active components of the visuals.
+              What worked instead, was making it trigger upon not hitting the paddles instead. Using the simple
+              constrain function allowed me to designate a set area as the “safe” area that would return the ball.
           </div>
-        </body>
+      </div>
+
+      <div>
+          <div id="ideas">
+            4. Ideas and Future Work
+          </div>
+          <div id="changes">
+            • More sophisticated opponent logic <br>
+          </div>
+        </div>
+      
+        <div>
+          <div id="kudos">
+            5. Kudos
+          </div>
+          <div id="help">
+            • P5 Reference Page <br>
+          </div>
+        </div>
+      
+        <div id="page-container">
+          <footer id="footer">
+            <div id="content-wrap">
+              <a onclick="window.open('https://www.instagram.com/kevxmin/')" target="_blank">
+                <img src="insta.png"></img>
+              </a>
+      
+              <a onclick="window.open('https://www.linkedin.com/in/kevxmin/')" target="_blank">
+                <img src="linkedin.png"></img>
+              </a>
+      
+              <a onclick="window.open('https://twitter.com/astroboykev/')" target="_blank">
+                <img src="twitter.png"></img>
+              </a>
+            </div>
+          </footer>
+        </div>
     </div>
 </body>
 
