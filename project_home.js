@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var threshold = 200; // Adjust this value as needed
+    var threshold = 200;
     
     $(window).scroll(function() {
         var scrollHeight = $(window).scrollTop();
